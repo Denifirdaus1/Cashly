@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/widget_background_gradient"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="0dp">
+
+    <TextView
+        android:id="@+id/tv_widget_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Balance"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/poppins_medium" />
+
+    <TextView
+        android:id="@+id/tv_widget_balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp 0"
+        android:textSize="32sp"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/baloo_2"
+        android:layout_marginTop="4dp" />
+
+    <ImageView
+        android:id="@+id/iv_widget_racoon"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/widgets_icon"
+        android:layout_marginTop="4dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:contentDescription="Racoon Image" />
+
+</LinearLayout>

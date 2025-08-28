@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "569414803615",
+    "project_id": "cashly-backup",
+    "storage_bucket": "cashly-backup.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569414803615:android:bd8a1cd2c61367adaff4dcc300dc47c5b925aff4",
+        "android_client_info": {
+          "package_name": "com.example.cash_inout_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "569414803615-jpqghf721fak6vsjovep0m1udg9r6sf6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cash_inout_app",
+            "certificate_hash": "bd8a1cd2c61367adaff4dcc300dc47c5b925aff4"
+          }
+        },
+        {
+          "client_id": "569414803615-jpqghf721fak6vsjovep0m1udg9r6sf6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvOiM9OiI-T4sLd0Lo02o5AIzaSyDNihM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "569414803615-jpqghf721fak6vsjovep0m1udg9r6sf6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
